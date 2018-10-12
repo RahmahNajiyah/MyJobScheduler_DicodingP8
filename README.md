@@ -58,6 +58,7 @@ private void getCurrentWeather(final JobParameters job){
 }
 
 2. Menampilkan notifikasi ke pengguna tentang cuaca saat ini
+
 double tempInCelcius = tempInKelvin - 273;
 String temprature = new DecimalFormat("##.##").format(tempInCelcius);
 String title = "Current Weather";
